@@ -12,5 +12,7 @@ print("Hello, World!")
 
 print("-------------Swift 4 day-------------");
 
-print()
+print("-----------------Classes and Structure-----------------")
+print();
+
 
