@@ -10,5 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
-print("Swift 4 day");
+print("-------------Swift 4 day-------------");
+
+print()
 
