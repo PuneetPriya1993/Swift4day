@@ -54,7 +54,7 @@ p1.display()
 
 */
 
-
+/*
 class Student
 {
   private  var sid: Int
@@ -86,7 +86,7 @@ class Student
     }
 }
 
-
+*/
 var s1 = Student()
 
 s1.display()
@@ -102,9 +102,55 @@ s1.lname = "Aggarwal"
 s1.display()
 
 
-let s2 = Student(sid: 200, fname: "Rakesh", lname: "Rai")
-s2.display()
+//let s2 = Student(sid: 200, fname: "Rakesh", lname: "Rai")
+//s2.display()
 
 
 
+// array of student
+// var s: [Student]
+// s.append(s1)
+//s.append(s2)
+// for x in s
+//{
+//   s.display()
+//}
 
+print("---------------storing the student objects in array and displaying---------------------")
+
+let s3 = Student(sid: 201, fname: "Rakesh", lname: "gupta")
+let s4 = Student(sid: 202, fname: "Puneet", lname: "singla")
+let s5 = Student(sid: 203, fname: "kunal", lname: "garg")
+
+
+var studentArray = [Student]()
+studentArray.append(s3)
+studentArray.append(s4)
+studentArray.append(s5)
+
+
+for s in studentArray
+{
+    s.display()
+}
+
+
+//var hello1 = hello()
+
+print("-------constructor of car---------")
+var c1 = car()
+var c2 = car()
+c2.display()
+//c1.vin = "23T56K"
+
+print("---------setData() of car--------")
+c1.setData(vin: "23T56RN", model: "Toyota", color: .Red, type: "Car Vehicle", speed: 4.5)
+c1.display()
+
+
+print("#############looping of enum colors##############")
+
+for e in Color.allCases
+{
+    print(e)
+}

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B712F772214D7B00025D3D4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B712F762214D7B00025D3D4 /* main.swift */; };
+		9B712F7E2214E83E0025D3D4 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B712F7D2214E83E0025D3D4 /* Student.swift */; };
+		9B712F802214E8E70025D3D4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B712F7F2214E8E70025D3D4 /* Person.swift */; };
+		9B712F822214E9C80025D3D4 /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B712F812214E9C80025D3D4 /* car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9B712F732214D7B00025D3D4 /* Swift4day */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift4day; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B712F762214D7B00025D3D4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B712F7D2214E83E0025D3D4 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Student.swift; path = ../../Student.swift; sourceTree = "<group>"; };
+		9B712F7F2214E8E70025D3D4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../../Person.swift; sourceTree = "<group>"; };
+		9B712F812214E9C80025D3D4 /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = car.swift; path = ../../car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9B712F762214D7B00025D3D4 /* main.swift */,
+				9B712F7D2214E83E0025D3D4 /* Student.swift */,
+				9B712F7F2214E8E70025D3D4 /* Person.swift */,
+				9B712F812214E9C80025D3D4 /* car.swift */,
 			);
 			path = Swift4day;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B712F802214E8E70025D3D4 /* Person.swift in Sources */,
 				9B712F772214D7B00025D3D4 /* main.swift in Sources */,
+				9B712F822214E9C80025D3D4 /* car.swift in Sources */,
+				9B712F7E2214E83E0025D3D4 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
