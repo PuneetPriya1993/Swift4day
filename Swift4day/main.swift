@@ -134,7 +134,7 @@ for s in studentArray
     s.display()
 }
 
-
+// examples of objects in different classes
 //var hello1 = hello()
 
 print("-------constructor of car---------")
