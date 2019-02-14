@@ -87,10 +87,11 @@ class Student
 }
 
 */
+/*
 var s1 = Student()
 
 s1.display()
-
+*/
 /*
  // Remove private from Student class attribute
 s1.sid = 100
@@ -99,7 +100,7 @@ s1.lname = "Aggarwal"
 
 */
 
-s1.display()
+//s1.display()
 
 
 //let s2 = Student(sid: 200, fname: "Rakesh", lname: "Rai")
@@ -115,7 +116,7 @@ s1.display()
 //{
 //   s.display()
 //}
-
+/*
 print("---------------storing the student objects in array and displaying---------------------")
 
 let s3 = Student(sid: 201, fname: "Rakesh", lname: "gupta")
@@ -133,10 +134,11 @@ for s in studentArray
 {
     s.display()
 }
+*/
 
 // examples of objects in different classes
 //var hello1 = hello()
-
+/*
 print("-------constructor of car---------")
 var c1 = car()
 var c2 = car()
@@ -154,4 +156,32 @@ print()
 for e in Color.allCases
 {
     print(e)
-}
+}*/
+
+/*
+print("------ hello class -------")
+var h1 = hello()
+h1.setData(id: 2301, message: "W2019 Batch")
+h1.display()*/
+
+
+print("------Structure-------")
+
+//var e1 = employee(empid: 1, fname: "Priya Aggarwal", salary: 1200.00)
+var e1 = employee()
+e1.display()
+
+var e2 = e1
+e2.empid = 200
+e2.setdata(fname: "hello")
+e2.display()
+
+
+
+
+var i: Int = 100
+var a: Int
+
+a = i
+//a = 200
+print("i: ", i ," ","a: ", a)
