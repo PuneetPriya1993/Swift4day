@@ -149,6 +149,7 @@ c1.display()
 
 
 print("#############looping of enum colors##############")
+print()
 
 for e in Color.allCases
 {
